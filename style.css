@@ -1,0 +1,14 @@
+.book {
+    background-color: beige;
+}
+
+.book__title {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.book__paragraph::first-letter {
+    color: brown;
+    font-weight: 800;
+    font-size: xx-large;
+}
