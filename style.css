@@ -2,6 +2,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 .background {
     background-color: #111119;
 }
@@ -41,4 +45,40 @@ body {
     color: brown;
     font-weight: 800;
     font-size: xx-large;
+}
+
+.windows {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    color: white;
+}
+
+.windows__frame {
+    margin: 80px;
+}
+
+.windows__frame-table {
+    border-spacing: 12px;
+}
+
+.windows__frame-table td {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 12px;
+}
+
+.frame-table__desktop {
+    background-image: url(https://media1.tenor.com/m/k9R-qgr1r0AAAAAd/bliss-windows-xp.gif);
+    background-position: middle;
+    background-size: cover;
+}
+
+.frame-table__gambling {
+    background-image: url(https://media1.tenor.com/m/GF9KvDmDMU4AAAAd/nini-dog.gif);
+    background-size: cover;
+}
+
+.frame-table__csgo {
+    background-image: url(https://media1.tenor.com/m/Qwf2iW-zslMAAAAC/ohnepixel-hobby.gif);
+    background-size: cover;
 }
